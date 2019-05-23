@@ -8,13 +8,13 @@
 
 <script>
 // @ is an alias to /src
-import Recommend from '@/views/Recommend.vue'
+// import Recommend from '@/views/Recommend.vue'
 
 export default {
   name: 'home',
   components: {
     // HelloWorld
-    Recommend
+    // Recommend
   }
 }
 </script>

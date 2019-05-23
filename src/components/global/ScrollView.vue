@@ -68,8 +68,8 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-.scroll-wrapper
-  height 100%
-  overflow hidden
+<style lang="scss" scoped>
+// .scroll-wrapper
+//   height 100%
+//   overflow hidden
 </style>

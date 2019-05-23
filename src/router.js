@@ -18,16 +18,16 @@ export default new Router({
       component: () => import('./views/Recommend.vue'),
       // children: () => import('./components/ListBlock.vue'),
     },
-    {
-      path: '/rank',
-      name: 'rank',
-      component: () => import('./views/Rank.vue')
-    },
-    {
-      path: '/search',
-      name: 'search',
-      component: () => import('./views/Search.vue')
-    },
+    // {
+    //   path: '/rank',
+    //   name: 'rank',
+    //   component: () => import('./views/Rank.vue')
+    // },
+    // {
+    //   path: '/search',
+    //   name: 'search',
+    //   component: () => import('./views/Search.vue')
+    // },
     // {
     //   path: '/user',
     //   name: 'user',
@@ -40,25 +40,25 @@ export default new Router({
     //     next()
     //   }
     // },
-    {
-      path: '/movie/:id',
-      name: 'movie',
-      component: () => import('./views/Movie.vue')
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: () => import('./views/Login.vue')
-    },
-    {
-      path: '/list/:type',
-      name: 'list',
-      component: () => import('./views/List.vue')
-    },
-    {
-      path: '/error',
-      name: 'error',
-      component: () => import('./views/Error.vue')
-    }
+    // {
+    //   path: '/movie/:id',
+    //   name: 'movie',
+    //   component: () => import('./views/Movie.vue')
+    // },
+    // {
+    //   path: '/login',
+    //   name: 'login',
+    //   component: () => import('./views/Login.vue')
+    // },
+    // {
+    //   path: '/list/:type',
+    //   name: 'list',
+    //   component: () => import('./views/List.vue')
+    // },
+    // {
+    //   path: '/error',
+    //   name: 'error',
+    //   component: () => import('./views/Error.vue')
+    // }
   ]
 })
